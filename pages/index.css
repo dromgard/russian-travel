@@ -32,7 +32,7 @@
 
 @import url(../blocks/intro/__list-item/intro__list-item.css);
 
-@import url(../blocks/intro/__list-item//_digit/intro__list-item_digit.css);
+@import url(../blocks/intro/__list-digit/intro__list-digit.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 
