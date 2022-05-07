@@ -1,0 +1,32 @@
+/*Описание блока footer*/
+.footer {
+    max-width: 1184px;
+    padding: 92px 0 24px 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, auto) 1fr;
+}
+
+/*Адаптивная верстка для блока footer*/
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 720px;
+        padding: 88px 0 24px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        max-width: 186px;
+        padding: 64px 0 24px 16px;
+        margin: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, auto) 1fr;
+    }
+}
