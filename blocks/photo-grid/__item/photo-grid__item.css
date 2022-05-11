@@ -1,29 +1,25 @@
 .photo-grid__item {
     object-fit: cover;
-    width: 284px;
-    height: 213px;
+    width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
     .photo-grid__item {
         object-fit: cover;
-        width: 300px;
-        height: 225px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid__item {
         object-fit: cover;
-        width: 352px;
-        height: 264px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 368px) {
     .photo-grid__item {
         object-fit: cover;
-        width: 288px;
-        height: 216px;
+        width: 100%;
     }
 }

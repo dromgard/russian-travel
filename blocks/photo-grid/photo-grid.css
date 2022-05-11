@@ -4,16 +4,16 @@
     max-width: 1184px;
     padding-top: 92px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 284px);
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
-    justify-items: center;
+    justify-content: center;
 }
 
 /*Адаптивная верстка для секции photo-grid*/
 @media screen and (max-width: 1024px) {
     .photo-grid {
         max-width: 928px;
-        grid-template-columns: repeat(auto-fill, 300px);
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 14px;
     }
 }
@@ -21,7 +21,7 @@
 @media screen and (max-width: 768px) {
     .photo-grid {
         max-width: 720px;
-        grid-template-columns: repeat(auto-fill, 352px);
+        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
         padding-top: 88px;
         gap: 16px;
     }
@@ -30,7 +30,7 @@
 @media screen and (max-width: 368px) {
     .photo-grid {
         max-width: 288px;
-        grid-template-columns: repeat(auto-fill, 288px);
+        grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
         padding-top: 64px;
         gap: 12px;
     }
