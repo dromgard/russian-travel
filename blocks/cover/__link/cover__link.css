@@ -41,6 +41,14 @@
     }
 }
 
+@media screen and (max-width: 535px) {
+    .cover__link {
+        grid-template-rows: 50% 50%;
+        row-gap: 16px;
+        min-height: 350px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__link {
         grid-template-rows: 50% 50%;

@@ -16,7 +16,7 @@
     opacity: .8;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 598px) {
     .place__link {
         grid-column: 1 / 2;
         grid-row: 3 / 4;

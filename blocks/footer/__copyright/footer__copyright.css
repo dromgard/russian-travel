@@ -9,7 +9,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 535px) {
     .footer__copyright {
         justify-self: start;
         margin-top: 48px;
