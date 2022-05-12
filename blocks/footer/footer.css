@@ -3,8 +3,9 @@
     max-width: 1184px;
     padding: 92px 0 24px 0;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(5, auto) 1fr;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
 }
 
 /*Адаптивная верстка для блока footer*/
@@ -21,12 +22,12 @@
     }
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 665px) {
     .footer {
         max-width: 186px;
         padding: 64px 0 24px 16px;
         margin: 0;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, auto) 1fr;
+        flex-direction: column;
     }
 }
+

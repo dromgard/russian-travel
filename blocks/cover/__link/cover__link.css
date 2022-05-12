@@ -2,12 +2,13 @@
     width: 100%;
     min-height: 740px;
     display: grid;
-    grid-template-rows: 55% 45%;
+    grid-template-rows: 54% 46%;
     row-gap: 32px;
     position: relative;
     justify-items: center;
     z-index: 1;
     background-image: url('../../../images/cover-trains.jpg');
+    background-position: center;
     background-size: cover;
     text-decoration: none;
 }
@@ -43,7 +44,7 @@
 
 @media screen and (max-width: 535px) {
     .cover__link {
-        grid-template-rows: 50% 50%;
+        grid-template-rows: 47% 53%;
         row-gap: 16px;
         min-height: 350px;
     }
@@ -51,8 +52,6 @@
 
 @media screen and (max-width: 320px) {
     .cover__link {
-        grid-template-rows: 50% 50%;
-        row-gap: 16px;
         min-height: 200px;
     }
 }

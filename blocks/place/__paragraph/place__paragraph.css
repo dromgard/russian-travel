@@ -1,6 +1,5 @@
 .place__paragraph {
-    margin: 0;
-    grid-column: 2 / 3;
+    margin: 0 0 26px 0;
     align-self: start;
     font-style: normal;
     font-weight: 400;
@@ -9,8 +8,8 @@
     color: #FFFFFF;
 }
 
-.place__paragraph:nth-of-type(2n) {
-    margin: 0 0 26px 0;
+.place__paragraph:last-of-type {
+    margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -28,13 +27,12 @@
 
 @media screen and (max-width: 598px) {
     .place__paragraph {
-        margin: 0 16px 0 16px;
-        grid-column: 1 / 2;
+        margin: 0 16px 25px 16px;
     }
 }
 
 @media screen and (max-width: 598px) {
-    .place__paragraph:nth-of-type(2n) {
-        margin: 32px 16px 25px 16px;
+    .place__paragraph:last-of-type {
+        margin: 0 16px 0 16px;
     }
 }
