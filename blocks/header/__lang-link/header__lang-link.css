@@ -1,4 +1,5 @@
 .header__lang-link {
+    margin-right: 18px;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -12,8 +13,8 @@
     opacity: .8;
 }
 
-.header__lang-link:first-of-type {
-    margin-right: 18px;
+.header__lang-link:last-of-type {
+    margin-right: 0;
 }
 
 @media screen and (max-width: 325px) {
